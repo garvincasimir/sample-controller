@@ -26,10 +26,10 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	samplecontrollerv1alpha1 "k8s.io/sample-controller/pkg/apis/samplecontroller/v1alpha1"
-	versioned "k8s.io/sample-controller/pkg/generated/clientset/versioned"
-	internalinterfaces "k8s.io/sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "k8s.io/sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
+	samplecontrollerv1alpha1 "github.com/garvincasimir/sample-controller/pkg/apis/samplecontroller/v1alpha1"
+	versioned "github.com/garvincasimir/sample-controller/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/garvincasimir/sample-controller/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/garvincasimir/sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
 )
 
 // FooInformer provides access to a shared informer and lister for

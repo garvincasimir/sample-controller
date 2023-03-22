@@ -7,3 +7,7 @@ kubectl apply -f artifacts/examples/nginx.yaml
 kubectl get pods -o wide
 kubectl get svc -o wide
 iptables -t nat -S | grep nginx
+
+
+https://learn.microsoft.com/en-us/azure/aks/concepts-clusters-workloads
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.22/#deployment-v1-apps
